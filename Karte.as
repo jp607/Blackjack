@@ -91,7 +91,7 @@
 			stopDrag();
 			if (this.hitTestObject(abl))
 			{
-				getCardValue();
+				this.getCardValue();
 				removeChild(rueckseite);
 				addChild(vorderseite);
 
